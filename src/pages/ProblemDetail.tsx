@@ -94,7 +94,7 @@ const ProblemDetail = () => {
     <div className="min-h-screen bg-white pt-20">
       <div 
         className="w-full h-[400px] bg-cover bg-center"
-        style={{ backgroundImage: `url(${problem.image.startsWith('http') ? problem.image : import.meta.env.BASE_URL + problem.image})` }}
+        style={{ backgroundImage: `url(${problem.image})` }}
       />
       
       <div className="container mx-auto px-4 py-8">
