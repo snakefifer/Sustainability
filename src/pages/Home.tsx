@@ -75,7 +75,7 @@ const Home = () => {
                 viewport={{ once: true, margin: "-100px" }}
               >
                 <img 
-                  src="/home-fishing.jpg" 
+                  src={`${import.meta.env.BASE_URL}home-fishing.jpg`} 
                   alt="Sustainable fishing practices" 
                   className="w-full h-full object-cover"
                 />

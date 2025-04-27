@@ -38,7 +38,7 @@ const Problems = () => {
       title: "Ocean Pollution",
       description: "Plastics, chemicals, and other pollutants harm marine life and their habitats. About 8 million tons of plastic waste enter our oceans annually, affecting marine species through ingestion and entanglement.",
       icon: Waves,
-      imageSrc: "/pollution.png"
+      imageSrc: `${import.meta.env.BASE_URL}pollution.png`
     }
   ];
 
