@@ -61,7 +61,7 @@ For recreational fishers, these changes mean adapting to new patterns and potent
   },
   pollution: {
     title: "Ocean Pollution: Poisoning Our Waters",
-    image: "/pollution.png",
+    image: `${import.meta.env.BASE_URL}pollution.png`,
     content: `Ocean pollution represents a complex and growing threat to marine ecosystems and human health. From visible plastic waste to invisible chemical contaminants, pollution affects every level of marine life and poses significant challenges for sustainable fishing.
 
 Plastic pollution has become one of the most visible forms of ocean pollution. An estimated 8 million metric tons of plastic enter our oceans annually, breaking down into microplastics that can be ingested by marine life at all levels of the food chain. These plastics can cause direct harm through entanglement and ingestion, and may also transport toxic chemicals throughout marine ecosystems.
